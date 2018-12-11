@@ -135,9 +135,9 @@ static CGFloat rubberBandDistance(CGFloat offset, CGFloat dimension) {
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     if (tableView  == tableArray[0]) {
-        return 5;
+        return 15;
     }
-    return 26;
+    return 20;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
